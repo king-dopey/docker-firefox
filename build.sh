@@ -1,6 +1,6 @@
 #!/bin/bash
-SERVICE=firefox-java
-VERSION=46.0
+SERVICE=firefox
+VERSION=latest
 
 read -p "Press [Enter] to build $SERVICE:$VERSION"
 docker build -t $SERVICE:$VERSION .
